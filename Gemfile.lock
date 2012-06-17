@@ -85,3 +85,4 @@ DEPENDENCIES
   sequel
   shoulda
   sinatra-flash
+  unicode_utils
