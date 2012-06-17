@@ -16,3 +16,7 @@ article {
   -moz-border-radius: 1em;
   border-radius: 1em;
 }
+h1 a, h1 a:hover {
+  color: #000;
+  text-decoration: none;
+}
