@@ -1,6 +1,7 @@
 source :rubygems
 
 gem 'padrino', '0.10.6'
+gem 'activesupport', '3.2.3'
 gem 'rake'
 gem 'sinatra-flash', :require => 'sinatra/flash'
 gem 'bcrypt-ruby', :require => 'bcrypt'
@@ -15,6 +16,7 @@ end
 
 
 if RUBY_VERSION > '1.9'
-  #gem 'unicode_utils'
+  gem 'unicode_utils'
 end
 
+gem 'thin'
