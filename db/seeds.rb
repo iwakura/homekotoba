@@ -1,3 +1,5 @@
+# coding: utf-8
+
 if Account.count.zero?
   email     = 'admin@example.com'
   password  = 'secret'
