@@ -15,6 +15,6 @@ end
 
 
 if RUBY_VERSION > '1.9'
-  gem 'unicode_utils'
+  #gem 'unicode_utils'
 end
 
