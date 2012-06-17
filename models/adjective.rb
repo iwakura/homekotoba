@@ -1,3 +1,4 @@
+# coding: utf-8
 class Adjective < Sequel::Model
   plugin :validation_helpers
 

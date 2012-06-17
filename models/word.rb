@@ -1,3 +1,4 @@
+# coding: utf-8
 class Word
   def self.expand(name)
     name = Name.new(name)

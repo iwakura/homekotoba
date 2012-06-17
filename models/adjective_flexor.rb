@@ -1,3 +1,4 @@
+# coding: utf-8
 class AdjectiveFlexor
   def self.transform(adjective, dst_gender)
     do_transform(adjective, gender(adjective), dst_gender)
