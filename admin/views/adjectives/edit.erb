@@ -1,0 +1,18 @@
+<div class="block">
+  <div class="secondary-navigation">
+    <ul class="wat-cf">
+      <li class="first"><%= link_to pat(:list), url(:adjectives, :index) %></li>
+      <li><%= link_to pat(:new), url(:adjectives, :new) %></li>
+      <li class="active"><%= link_to pat(:edit), url(:adjectives, :edit, :id => @adjective.id) %></li>
+    </ul>
+  </div>
+  <div class="content">
+    <h2 class="title"><%= pat(:edit) %> <% mt(:adjective) %></h2>
+    <div class="inner">
+      <% form_for :adjective, url(:adjectives, :update, :id => @adjective.id), :method => :put, :class => :form do |f| %>
+        <%= partial "adjectives/form", :locals => { :f => f } %>
+      <% end %>
+    </div>
+  </div>
+</div>
+<% content_for :sidebar, partial("base/sidebar") %>

@@ -1,0 +1,15 @@
+<div class="group">
+  <%= f.label :word %><%= f.error_message_on :word %>
+  <%= f.text_area :word, :class => :text_area %>
+  <span class="description">Ex: a simple text</span>
+</div>
+<div class="group">
+  <%= f.label :checked %><%= f.error_message_on :checked %>
+  <%= f.check_box :checked, :class => :check_box %>
+  <span class="description">Ex: a simple text</span>
+</div>
+
+<div class="group navform wat-cf">
+  <%= f.submit pat(:save), :class => :button %>
+  <%= f.submit pat(:cancel), :onclick => "window.location='#{url(:adjectives, :index)}';return false", :class => :button %>
+</div>

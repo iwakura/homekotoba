@@ -1,0 +1,19 @@
+<div class="row">
+<div class="span4 offset4">
+<% form_tag('/', :method => :get, :class => 'form-search') do %>
+  <p>
+    <%= label_tag :name, :caption => %{І&apos;мя:}%>
+    <%= text_field_tag :name, :placeholder => (params[:name] || 'Гафітька'), :id => 'name', :size => 12, :maxlength => 30 %>
+    <%= submit_tag 'Гаразд', :class => 'btn' %>
+  </p>
+<% end %>
+<% unless @words.blank? %>
+  <h5><%= escape_html params[:name] %></h5>
+  <ul>
+  <% @words.each do |word| %>
+    <li><%= word %></li>
+  <% end %>
+  </ul>
+<% end %>
+</div>
+</div>

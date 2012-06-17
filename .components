@@ -1,0 +1,8 @@
+--- 
+:admin_renderer: erb
+:orm: sequel
+:mock: none
+:test: shoulda
+:stylesheet: none
+:renderer: erb
+:script: jquery

@@ -1,0 +1,36 @@
+<div class="block">
+  <div class="secondary-navigation">
+    <ul class="wat-cf">
+      <li class="first active"><%= link_to pat(:list), url(:adjectives, :index) %></li>
+      <li><%= link_to pat(:new), url(:adjectives, :new) %></li>
+    </ul>
+  </div>
+  <div class="content">
+    <h2 class="title"><%= pat(:all) %> <% mt(:adjectives) %></h2>
+    <div class="inner">
+      <table class="table">
+        <tr>
+          <th class="first"><%= mat(:adjective, :word) %></th>
+          <th><%= mat(:adjective, :checked) %></th>
+          <th><%= mat(:adjective, :id) %></th>
+          <th class="last">&nbsp;</th>
+        </tr>
+        <% @adjectives.each do |adjective| %>
+        <tr>
+          <td class="first"><%= adjective.word %></td>
+          <td><%= adjective.checked %></td>
+          <td><%= adjective.id %></td>
+          <td class="last">
+            <%= button_to pat(:edit), url(:adjectives, :edit, :id => adjective.id), :method => :get, :class => :button_to %> |
+            <%= button_to pat(:delete), url(:adjectives, :destroy, :id => adjective.id), :method => :delete, :class => :button_to, :onsubmit => "return confirm('#{pat(:confirm)}')" %>
+          </td>
+        </tr>
+        <% end %>
+      </table>
+      <div class="actions-bar wat-cf">
+        <div class="actions"></div>
+      </div>
+    </div>
+  </div>
+</div>
+<% content_for :sidebar, partial("base/sidebar") %>
