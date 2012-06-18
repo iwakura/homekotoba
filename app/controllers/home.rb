@@ -10,7 +10,6 @@ Complimentator.controller do
     else
       render '/home/index.html'
     end
-
   end
 
 end
