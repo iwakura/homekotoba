@@ -14,6 +14,9 @@
     <li><%= word %></li>
   <% end %>
   </ul>
+  <% if Padrino.env == :production %>
+    <%= image_tag "http://katavasia.heroku.com/cnt/hk.png?#{Time.now.to_i}", :width => 1, :height => 1, :alt => '' %>
+  <% end %>
 <% end %>
 </div>
 </div>
