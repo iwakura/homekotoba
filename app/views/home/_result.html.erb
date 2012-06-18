@@ -1,0 +1,11 @@
+<% unless @words.blank? %>
+  <h5><%= escape_html params[:name] %></h5>
+  <ul>
+  <% @words.each do |word| %>
+    <li><%= word %></li>
+  <% end %>
+  </ul>
+  <% if Padrino.env == :production %>
+    <%= image_tag "http://katavasia.heroku.com/cnt/hk.png?#{Time.now.to_i}", :width => 1, :height => 1, :alt => '' %>
+  <% end %>
+<% end %>
