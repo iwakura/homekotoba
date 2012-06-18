@@ -22,7 +22,7 @@ Bundler.require(:default, PADRINO_ENV)
 #
 
 Padrino.before_load do
-   I18n.locale = :uk
+  I18n.locale = :uk
 end
 
 Padrino.after_load do
