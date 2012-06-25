@@ -1,7 +1,7 @@
 source :rubygems
 
 gem 'padrino', '0.10.6'
-gem 'activesupport', '3.2.3'
+gem 'activesupport', '3.2.6'
 gem 'rake'
 gem 'sinatra-flash', :require => 'sinatra/flash'
 gem 'bcrypt-ruby', :require => 'bcrypt'
@@ -14,9 +14,10 @@ group :test do
   gem 'rack-test', :require => 'rack/test'
 end
 
-
 if RUBY_VERSION > '1.9'
   gem 'unicode_utils'
 end
 
-gem 'thin'
+group :production, :development do
+  gem 'unicorn'
+end
