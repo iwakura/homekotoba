@@ -19,7 +19,8 @@ if Account.count.zero?
   end
 end
 
-if ENV['RESEED']
+
+if ENV['RESEED'] || Adjective.count.zero?
   Adjective.delete
   file = ENV['FULL'] == 'YES' ? 'adjectives.txt' : 'adjectives-short.txt'
   checked = !ENV['FULL']
