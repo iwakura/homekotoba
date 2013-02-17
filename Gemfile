@@ -1,7 +1,7 @@
 source :rubygems
 
-gem 'padrino', '0.10.6'
-gem 'activesupport', '3.2.6'
+gem 'padrino', '~>0.10.7'
+gem 'activesupport', '~>3.2.12'
 gem 'rake'
 gem 'sinatra-flash', :require => 'sinatra/flash'
 gem 'bcrypt-ruby', :require => 'bcrypt'
