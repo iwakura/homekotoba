@@ -1,5 +1,5 @@
 footer {
-  font-size: 0.5em;
+  font-size: 0.6em;
   text-align: right;
 }
 header {
@@ -11,12 +11,15 @@ header {
 article {
   padding: 2em 1em;
   min-height: 15em;
-  background-color: #cfc;
+  background-color: #dfd;
   -webkit-border-radius: 1em;
   -moz-border-radius: 1em;
   border-radius: 1em;
 }
 h1 a, h1 a:hover {
-  color: #000;
+  color: #060;
   text-decoration: none;
+}
+input:focus:required:invalid:focus {
+  border-color: yellow;
 }
