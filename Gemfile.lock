@@ -77,7 +77,8 @@ GEM
     treetop (1.4.12)
       polyglot
       polyglot (>= 0.3.1)
-    unicorn (4.6.0)
+    unicode_utils (1.4.0)
+    unicorn (4.6.1)
       kgio (~> 2.6)
       rack
       raindrops (~> 0.7)
@@ -98,5 +99,5 @@ DEPENDENCIES
   sequel
   shoulda
   sinatra-flash
-  unicorn
   unicode_utils
+  unicorn
