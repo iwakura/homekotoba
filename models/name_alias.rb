@@ -4,7 +4,7 @@ class NameAlias < Sequel::Model
 
   def validate
     validates_presence [:short, :long]
-    validates_unique :short, [:short, :long]
+    validates_unique :short, :only_if_modified => true
   end
 
   def before_validation
