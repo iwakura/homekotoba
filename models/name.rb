@@ -3,17 +3,13 @@ class Name
   attr_reader :name, :real_name, :gender
 
   def initialize(name)
-    @name = name
+    @name = titlecase(name)
     find_real_name
     guess_gender
   end
 
   def letters
-    @letters ||= word.chars.to_a
-  end
-
-  def word
-    @word ||= downcase(real_name)
+    @letters ||= downcase(real_name).chars.to_a
   end
 
   def guess_gender
@@ -27,7 +23,7 @@ class Name
 
   def find_real_name
     @real_name =
-    if alias_name = NameAlias.find(:short => downcase(name))
+    if alias_name = NameAlias.find(:short => titlecase(name))
       alias_name.long
     else
       name
@@ -36,5 +32,9 @@ class Name
 
   def downcase(line)
     defined?(UnicodeUtils) ? UnicodeUtils.downcase(line) : line
+  end
+
+  def titlecase(line)
+    defined?(UnicodeUtils) ? UnicodeUtils.titlecase(line) : line
   end
 end
