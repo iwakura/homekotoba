@@ -4,3 +4,9 @@ uk:
   sample_name: Єва
   ok: Гаразд
 
+  models:
+    name_alias:
+      attributes:
+        short: Коротка форма
+        long: Довга форма
+

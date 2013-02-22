@@ -19,6 +19,14 @@ if Account.count.zero?
   end
 end
 
+if NameAlias.count.zero?
+  path = File.join(File.dirname(__FILE__), 'data/name_aliases.txt')
+  File.open(path).each_line do |line|
+    short, long = line.chomp.split('|')
+    NameAlias.insert :short => short, :long => long
+  end
+end
+
 
 if ENV['RESEED'] || Adjective.count.zero?
   Adjective.delete

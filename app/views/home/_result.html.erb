@@ -1,5 +1,5 @@
 <% unless @words.blank? %>
-  <h5><%= escape_html params[:name] %></h5>
+  <h5><%= escape_html @name.real_name %></h5>
   <ul>
   <% @words.each do |word| %>
     <li><%= word %></li>

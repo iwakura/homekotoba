@@ -2,7 +2,8 @@ Complimentator.controller do
 
   get :index do
     if params[:name]
-      @words = Word.expand(params[:name])
+      @name = Name.new(params[:name])
+      @words = Word.expand(@name)
     end
     if request.xhr?
       content_type 'application/javascript'
