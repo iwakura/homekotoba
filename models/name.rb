@@ -2,6 +2,8 @@
 class Name
   attr_reader :name, :real_name, :gender
 
+  include StringUtil
+
   def initialize(name)
     @name = titlecase(name)
     find_real_name
@@ -28,13 +30,5 @@ class Name
     else
       name
     end
-  end
-
-  def downcase(line)
-    defined?(UnicodeUtils) ? UnicodeUtils.downcase(line) : line
-  end
-
-  def titlecase(line)
-    defined?(UnicodeUtils) ? UnicodeUtils.titlecase(line) : line
   end
 end
