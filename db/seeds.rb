@@ -19,6 +19,11 @@ if Account.count.zero?
   end
 end
 
+if ENV['RESEED']
+  Adjective.delete
+  NameAlias.delete
+end
+
 if NameAlias.count.zero?
   path = File.join(File.dirname(__FILE__), 'data/name_aliases.txt')
   File.open(path).each_line do |line|
@@ -27,9 +32,7 @@ if NameAlias.count.zero?
   end
 end
 
-
-if ENV['RESEED'] || Adjective.count.zero?
-  Adjective.delete
+if Adjective.count.zero?
   file = ENV['FULL'] == 'YES' ? 'adjectives.txt' : 'adjectives-short.txt'
   checked = !ENV['FULL']
   path = File.join(File.dirname(__FILE__), 'data', file)
