@@ -5,9 +5,5 @@ class HomeControllerTest < Test::Unit::TestCase
     setup do
       get '/'
     end
-
-    should "return hello world text" do
-      assert_equal "Hello World", last_response.body
-    end
   end
 end
