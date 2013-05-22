@@ -1,5 +1,6 @@
 accurate
 active
+adaptable
 adept
 adorable
 adored
@@ -24,6 +25,7 @@ bewitched
 bland
 bleak
 blissful
+bold
 bountiful
 brave
 breakable
@@ -40,6 +42,7 @@ charming
 classic
 clever
 colorful
+compassionate
 competent
 complicated
 concrete
@@ -60,11 +63,13 @@ defiant
 definite
 delicious
 delightful
+dependable
 devoted
 diligent
 direct
 distinct
 dizzy
+dominant
 doting
 downright
 dramatic
@@ -111,6 +116,7 @@ feisty
 fine
 firm
 flawless
+flexible
 flimsy
 fluid
 focused
@@ -175,13 +181,16 @@ immediate
 immense
 impartial
 impeccable
+impressionable
 impressive
 improbable
 inborn
 indelible
+inspirational
 intelligent
 interesting
 intrepid
+intuitive
 jaunty
 jealous
 jolly
@@ -201,6 +210,7 @@ knowledgeable
 known
 lasting
 lavish
+leader
 leading
 likable
 limp
@@ -216,6 +226,7 @@ lucky
 luminous
 lustrous
 luxurious
+magical
 magnificent
 majestic
 marvellous
@@ -226,6 +237,7 @@ memorable
 merry
 modern
 modest
+moody
 mundane
 mushy
 mysterious
@@ -264,6 +276,7 @@ overjoyed
 palatable
 passionate
 peaceful
+perceptive
 perfect
 perfumed
 perky
@@ -318,6 +331,7 @@ rich
 rigid
 ripe
 robust
+romantic
 rosy
 rowdy
 royal
@@ -326,6 +340,7 @@ sane
 satisfied
 self-assured
 self-reliant
+sensual
 sentimental
 serene
 serious
@@ -352,6 +367,7 @@ specific
 spectacular
 speedy
 spicy
+spiritual
 splendid
 spotless
 spry
@@ -378,6 +394,7 @@ surprising
 svelte
 sweet
 swift
+sympathetic
 tangible
 tasty
 taut
@@ -393,6 +410,7 @@ treasured
 tricky
 trim
 true
+trustful
 trustwotruthful
 turbulent
 ultimate
@@ -408,6 +426,7 @@ victorious
 vigilant
 vigorous
 virtuous
+visionary
 vital
 vivacious
 vivid
