@@ -1,7 +1,9 @@
-source :rubygems
+source 'http://rubygems.org'
 
-gem 'padrino', '~>0.10.7'
-gem 'activesupport', '~>3.2.12'
+ruby '1.9.3'
+
+gem 'padrino', '~>0.11.2'
+gem 'activesupport', '~>3.2.18'
 gem 'rake'
 gem 'sinatra-flash', :require => 'sinatra/flash'
 gem 'bcrypt-ruby', :require => 'bcrypt'
@@ -10,7 +12,7 @@ gem 'pg'
 gem 'sequel'
 
 group :test do
-  gem 'shoulda'
+  gem 'shoulda', '~>3.3.2'
   gem 'rack-test', :require => 'rack/test'
 end
 
