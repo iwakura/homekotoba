@@ -11,6 +11,7 @@ amazing
 amusing
 anchored
 aromatic
+arrogant
 artistic
 astonishing
 athletic
@@ -39,8 +40,12 @@ careful
 caring
 cautious
 charming
+childish
+clamorous
 classic
 clever
+clumsy
+cold
 colorful
 compassionate
 competent
@@ -53,6 +58,7 @@ courageous
 courteous
 creative
 cultured
+curious
 cute
 dapper
 darling
@@ -101,6 +107,7 @@ exciting
 exemplary
 exotic
 experienced
+extravagant
 extroverted
 fabulous
 fair
@@ -118,6 +125,7 @@ firm
 flawless
 flexible
 flimsy
+flirtatious
 fluid
 focused
 fond
@@ -125,6 +133,7 @@ forceful
 formal
 forthright
 fortunate
+fragile
 fragrant
 free
 fresh
@@ -282,6 +291,7 @@ perfumed
 perky
 piercing
 plain
+playful
 pleasant
 pleased
 pleasing
@@ -327,6 +337,7 @@ remarkable
 respectful
 responsible
 rewarding
+rhytmic
 rich
 rigid
 ripe
@@ -340,6 +351,7 @@ sane
 satisfied
 self-assured
 self-reliant
+sensitive
 sensual
 sentimental
 serene
@@ -353,6 +365,7 @@ shy
 silver
 simple
 skeletal
+slender
 smart
 smooth
 snappy
@@ -422,6 +435,7 @@ unusual
 urban
 velvety
 venerated
+versatile
 victorious
 vigilant
 vigorous
@@ -476,6 +490,7 @@ zesty
 бажаний
 барвистий
 басистий
+безбідний
 безпечний
 безпристрасний
 безтурботний
@@ -613,7 +628,9 @@ zesty
 добротний
 дорослий
 доспілий
+достойний
 дотепний
+дрімливий
 дужий
 думаючий
 думний
@@ -644,6 +661,8 @@ zesty
 життєрадісний
 завзятий
 загадковий
+займистий
+заквітлий
 замашний
 заможний
 замріяний
@@ -759,6 +778,7 @@ zesty
 незабутній
 неймовірний
 неквапний
+неосяжний
 неочікуваний
 неповторний
 несподіваний
@@ -771,6 +791,8 @@ zesty
 обласканий
 облесливий
 обожнюваний
+обігрітий
+обізнаний
 одухотворений
 одіозний
 оживляючий
@@ -811,12 +833,14 @@ zesty
 полум'яний
 помпезний
 порядний
+поспішний
 потайний
 потішний
 премудрий
 привабливий
 приязний
 приємний
+пробивний
 прогресивний
 простий
 пруткий
@@ -876,6 +900,7 @@ zesty
 солідний
 сонний
 сором'язливий
+спокійний
 спонтанний
 справедливий
 справний
@@ -886,6 +911,9 @@ zesty
 спілий
 спірний
 сталий
+старанний
+статечний
+статурний
 стиглий
 стильний
 строгий
@@ -909,6 +937,7 @@ zesty
 терпкий
 терпливий
 терплячий
+тихенький
 тонкий
 точний
 трудний
